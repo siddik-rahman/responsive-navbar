@@ -1,0 +1,60 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+/* Navigation bar styling */
+
+.navbar {
+  display:flex;
+  justify-content: center;
+  background-color:dodgerblue;
+  height:60px;
+}
+.nav-links {
+  display:flex;
+  gap:10px;
+}
+   /* Style for links */
+.nav-links a {
+  padding:10px 15px;
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+}
+ /* Hover effect */
+.nav-links a:hover {
+  background-color:grey;
+  color:black;
+  transition:all 0.5s;
+}
+.hamburger {
+  display:none;
+  font-size:28px;
+  color:white;
+  cursor:pointer;
+
+ 
+}
+ /* Responsive for small screens */
+@media (max-width:768px) {
+  .nav-links {
+    display:none;
+    position:absolute;
+    top:60px;
+    left:0;
+    right:0;
+    width:100%;
+    flex-direction: column;
+    background-color:#333;
+    padding:8px 0;
+   
+  }
+  .nav-links.show {
+   display:flex;
+  }
+  .hamburger {
+    display:block;
+  }
+}
