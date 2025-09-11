@@ -11,7 +11,9 @@ This project is designed to work seamlessly on both mobile and desktop devices.
 - 🔗 **Navigation Links** – Users can click links to navigate to different sections
 - 🧠 **Simple & Clean UI** – Minimalist and user-friendly interface
 
----
+---  
+## Live Demo  
+[Click here to view demo] (https://siddik-rahman.github.io/responsive-navbar/)
 
 ## 🛠️ Technologies Used
 
