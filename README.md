@@ -13,7 +13,7 @@ This project is designed to work seamlessly on both mobile and desktop devices.
 
 ---  
 ## Live Demo  
-[Click here to view demo](https://siddik-rahman.github.io/responsive-navbar/)
+[Live Demo](https://siddik-rahman.github.io/responsive-navbar/)
 
 ## 🛠️ Technologies Used
 
